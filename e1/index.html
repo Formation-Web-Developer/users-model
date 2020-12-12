@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/app.js" defer></script>
+    </head>
+    <body>
+        <div class="content">
+            <div id="users" class="table">
+                <div class="row">
+                    <div class="col">Nom</div>
+                    <div class="col">Prénom</div>
+                    <div class="col">Email</div>
+                    <div class="col">Action</div>
+                </div>
+            </div>
+            <div class="form">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Nom" id="name" />
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Prénom" id="lastname" />
+                    </div>
+                    <div class="col">
+                        <input type="email" placeholder="Email" id="email"/>
+                    </div>
+                    <div class="col">
+                        <button onclick="newUser()">Sauvegarder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
